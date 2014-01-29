@@ -1,0 +1,27 @@
+.autocomplete-suggestions {
+	border: 1px solid #999;
+	background: #D3D3D3;
+	overflow: auto;
+	width: 540px;
+	font-size: 11px;
+}
+
+.autocomplete-suggestion {
+	padding: 5px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 11pt;	
+}
+
+.autocomplete-selected {
+	background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+	font-weight: bold;
+	color: #3399FF;
+}
+
+.table > thead > tr {
+	background-color: #FFFACD;	
+}

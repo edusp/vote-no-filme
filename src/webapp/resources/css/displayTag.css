@@ -1,0 +1,30 @@
+#endereco tr th {
+	text-align: center;
+	background-color: #428BCA;
+}
+
+#endereco tr th a {
+	color: #FFFFFF
+}
+
+#usuario{
+	text-align: center;
+	width: 100%;
+}
+
+#usuario tr th {
+	text-align: center;
+	background-color: #428BCA;
+}
+
+#usuario tr th a {
+	color: #FFFFFF
+}
+
+.odd:HOVER{
+	background-color: #cccccc;
+}
+
+.even:HOVER{
+	background-color: #cccccc;
+}

@@ -1,0 +1,59 @@
+/* Css Custom*/
+.table {
+	cursor: pointer;
+	width: 500px;
+	text-align: center;
+	margin-left: 27%;
+}
+
+.f_0 {
+	background-color: #ddd;
+}
+
+.f_1 {
+	background-color: #CDCDB4;
+}
+
+tbody tr:HOVER {
+	color: red;
+}
+
+span.spacer {
+	clear: both;
+	display: block;
+	height: 2px;
+}
+
+.titleLegend {
+	text-align: center;
+}
+
+.form-group {
+	text-align: center;
+}
+
+#imagens {
+	margin-left: 30%;
+}
+
+
+#f_1 {
+	background-color: #9ACD32;
+}
+
+#f_2 {
+	background-color: #BCEE68;
+}
+
+#f_3 {
+	background-color: #CAFF70;
+}
+
+#chart_div {
+	margin-left: 27%;
+}
+
+#loading {
+	margin-left: 48%;
+	padding-top: 58px;
+}
