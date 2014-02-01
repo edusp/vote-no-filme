@@ -1,5 +1,4 @@
 
-var filmes = new Array();
 
 $(document).ready(function() {
 
@@ -13,7 +12,7 @@ $(document).ready(function() {
 		type: "GET",
 		success: function(data){
 
-			filmes = data;
+			google.setOnLoadCallback(desenhaGrafico(data));
 
 		}
 
@@ -25,14 +24,14 @@ $(document).ready(function() {
 
 	
 google.load('visualization', '1', {'packages' : ['corechart']});
-google.setOnLoadCallback(desenhaGrafico);
 
 
-function desenhaGrafico(){
+
+function desenhaGrafico(filmes){
 
 	var data = new google.visualization.DataTable();
 	data.addColumn('string','Filme');
-	data.addColumn('number','Pontuação');
+	data.addColumn('number','PontuaÃ§Ã£o');
 	
 	data.addRows([
 		[filmes[0].nome, filmes[0].pontuacao],
@@ -42,7 +41,7 @@ function desenhaGrafico(){
 		[filmes[4].nome, filmes[4].pontuacao]				
 	]);
 
-	var options = {'title':'Pontuação dos filmes',
+	var options = {'title':'PontuaÃ§Ã£o dos filmes',
            'width':600,
            'height':300,
            is3D: true};
